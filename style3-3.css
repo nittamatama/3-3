@@ -106,9 +106,24 @@ nav a:hover{
 #concept_logo
  margin-bottom: -40px;
 
- #concept h2{
-   margin-right: 25px;
+ .container5{
+  height: 500px;
+  background-color:red;
+  display: flex;
  }
+ 
+ .left-content {
+  width: 400px;
+  height: 400px;
+  background-color: lightgreen;
+ }
+ .right-content{
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+ }
+
+
 
  ul {
   list-style: none;
@@ -123,7 +138,7 @@ nav a:hover{
  }
 
 #column{
-  background-color: #cc0000;
+  background-color: #d52f25;
   text-align: center;
 }
 
