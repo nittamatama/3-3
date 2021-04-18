@@ -122,14 +122,15 @@ main{
 }
 
 .container4{
-  /* margin-top: 50px; */
-  margin-bottom: 30px;
+  
+  margin-top: 50px;
+  /* margin-bottom: 30px; */
   border-width: thick;
   /* border-style: solid; */
   color: #d52f25;
 }
 
-h1{
+.container4 h1{
   color: #d52f25;
   font-size: 35px;
 }
@@ -151,7 +152,6 @@ h1{
   height: 500px;
   display: flex;
   justify-content: space-between;
-  /* justify-content: center; */
   align-items: center;
 
  }
@@ -162,8 +162,8 @@ h1{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 70px;
-  margin-top: 100px;
+  padding-top: 20px;
+  margin-top: 20px;
  }
 
  .right-content{
@@ -172,8 +172,8 @@ h1{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 70px;
-  margin-top: 100px;
+  padding-top: 20px;
+  margin-top: 20px;
  }
 
  .mini-content {
@@ -182,8 +182,8 @@ h1{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 70px;
-  margin-top: 100px;
+  padding-top: 20px;
+  margin-top: 20px;
  }
 
 .concept_image{
@@ -218,10 +218,11 @@ h1{
    display: flex;
    justify-content: space-around;
    margin-bottom: 50px;
+   margin-left: 40px;
  }
 
  .container7 a{
-   font-size: 20px;
+   font-size: 25px;
  }
 
  .container9 p{
@@ -257,3 +258,19 @@ footer{
   color: #fff;
   text-align: center;
 }
+
+/* @media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  header .info {
+    width: 60%;
+    align-self: center;
+  }
+
+  header .pic {
+    width: 40%;
+  } */
