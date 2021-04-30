@@ -1,0 +1,66 @@
+.main-header{
+  height: 30%;
+  background-color: red;
+ }
+
+.cast h1 {
+  font-size: 2.0em;
+  text-align: center;
+  color: red;
+}
+
+.container{
+  
+}
+
+section {
+  margin-bottom: 60px;
+  display: flex;
+}
+
+
+.pic {
+  width: 30%;
+  height: 30%;
+  margin-right: 32px;
+}
+
+.main-content{
+  height: 30%;
+  width: 30%;
+  background-color:lightpink;
+ }
+ 
+ .messages{
+ }
+ 
+ .message{
+  border: 1px solid black;
+ }
+ 
+ .message-name{
+  font-size: 16px;
+ }
+ 
+ .message-body{
+  font-size: 24px;
+ }
+
+section2{
+  display: flex;
+}
+
+.pic2 {
+  width: 30%;
+  height: 30%;
+  margin-right: 32px;
+}
+
+
+.desc {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+}
