@@ -1,5 +1,32 @@
-.main-header{
-  height: 30%;
+/* リセットCSS */
+body {
+  font-family: serif;
+  font-size: 14px;
+  color: black;
+  margin: 0 auto;
+  /* background-color: white; */
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 599px) {
+ol {
+    font-size: 30%;
+  }
+ h4{
+    font-size: 50%;
+  }
+}
+
+header {
+  height:5vh;
+  width: 100%;
   background-color: red;
  }
 
@@ -9,9 +36,6 @@
   color: red;
 }
 
-.container{
-  
-}
 
 section {
   margin-bottom: 60px;
@@ -25,29 +49,21 @@ section {
   margin-right: 32px;
 }
 
-.main-content{
-  height: 30%;
-  width: 30%;
-  background-color:lightpink;
- }
- 
- .messages{
- }
- 
- .message{
-  border: 1px solid black;
- }
- 
- .message-name{
-  font-size: 16px;
- }
- 
- .message-body{
-  font-size: 24px;
- }
+h2{
+  border-bottom: 5px solid red;
+}
 
-section2{
+ol{
+  font-size: 100%;
+}
+
+section2 {
   display: flex;
+}
+
+h4{
+  border-style: inset;
+  margin-top: 10%;
 }
 
 .pic2 {
@@ -64,3 +80,9 @@ section2{
 img {
   max-width: 100%;
 }
+
+footer{
+  background-color: red;
+  height: 5vh; 
+  width: 100%;
+ }

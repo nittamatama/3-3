@@ -57,15 +57,16 @@ ul,li {
   position: absolute;
   top: 20px;
   /* left: 100px; */
-  width: 45％;
+  width: 35%;
 }
 
-h2{
-  font-size: 30px;
+#site_logo h2{
+  font-size: 250%;
+  margin-top: 2%;
 }
 
 #site_addres {
-  width: 55%;
+  width: 60%;
 float: right;
 padding: 0px 10px;
 /* padding: 0px 20px; */
@@ -89,12 +90,12 @@ nav {
   /* font-size: 15px; */
 }
 
-.nav-lists {
+/* .nav-lists {
   margin: 10px;
   list-style: none;
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-around;
+} */
 
 .table1 a{
   font-size: 100%;
@@ -150,8 +151,7 @@ main{
 
 .container4{
   
-  margin-top: 50px;
-  /* margin-bottom: 30px; */
+  margin-top: 7%;
   border-width: thick;
   /* border-style: solid; */
   color: #d52f25;
@@ -159,7 +159,7 @@ main{
 
 .container4 h1{
   color: #d52f25;
-  font-size: 35px;
+  font-size: 160%;
 }
 /* .middle_image{
   width: 1000px;
@@ -189,8 +189,8 @@ main{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 20px;
-  margin-top: 20px;
+  /* padding-top: 20px;
+  margin-top: 20px; */
  }
 
  .right-content{
@@ -199,8 +199,8 @@ main{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 20px;
-  margin-top: 20px;
+  /* padding-top: 20px;
+  margin-top: 20px; */
  }
 
  .mini-content {
@@ -209,8 +209,8 @@ main{
   font-size: 35px;
   line-height: 1.8;
   font-family: serif;
-  padding-top: 20px;
-  margin-top: 20px;
+  /* padding-top: 20px;
+  margin-top: 20px; */
  }
 
 .concept_image{
@@ -221,6 +221,7 @@ main{
 .container6{
   height: 100%;
   width: 100%;
+  margin-top: 10%;
  }
 
  .center_content2{
@@ -262,12 +263,15 @@ main{
 
 #access iframe {
   width: 70%;
+  height: 70%;
 }
 
 
 #access_map {
   float: left;
   width: 50%;
+  height: 50%;
+  margin-top: 20%;
 }
 
 #access_txt {

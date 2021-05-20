@@ -22,7 +22,8 @@ ul,li {
 .task h1, .task2 h1 {
   border-bottom: 5px solid red;
   width: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
   display: block;
   font-size: 350%;
 }
