@@ -1,10 +1,10 @@
 /* リセットCSS */
 body {
+  /* font-family: serif; */
   font-size: 14px;
   color: black;
   margin: 0 auto;
-  background-color: white;
-  text-align: center;
+  /* background-color: white; */
 }
 h1,h2,h3,h4,h5,h6,p {
   padding: 10px 0;
@@ -16,7 +16,14 @@ ul,li {
 }
 
 
-.heading {
+
+/* header {
+  height:5vh;
+  width: 100%;
+  background-color: red;
+ } */
+
+ .heading {
   width: 50%;
   margin-left: 30px;
 }
@@ -115,36 +122,92 @@ nav a:hover{
   width: 100%;
 }
 
-.title h1 {
+.cast h1 {
+  font-size: 2.0em;
+  text-align: center;
   color: red;
-  font-size: 350%;
 }
-.task h1, .task2 h1 {
+
+
+section {
+  margin-bottom: 60px;
+  display: flex;
+}
+
+
+.pic {
+  width: 25%;
+  height: 25%;
+  margin-top: 10%;
+  margin-right: 32px;
+}
+
+.desc h2{
   border-bottom: 5px solid red;
-  width: 50%;
-  margin-bottom: 5%;
-  display: block;
-  font-size: 350%;
 }
-.task h2, .task2 h2 {
-  font-size: 200%;
-  display: block;
-  margin-bottom: 1%;
+
+ol{
+  font-size: 150%;
 }
-.task h3, .task2 h3 {
-  font-size: 180%;
-  display: block;
-  margin-bottom: 1%;
+
+section2 {
+  display: flex;
 }
-.task p, .task2 p {
-  font-size: 110%;
-  display: block;
-  margin-bottom: 1%;
-  border-top: solid;
-}
-.task2 h1 {
+
+h4{
+  border-style: inset;
   margin-top: 10%;
 }
-.task2 {
-  margin-bottom: 10%;
+
+.pic2 {
+  width: 25%;
+  height: 25%;
+  margin-top: 10%;
+  margin-right: 32px;
+}
+
+
+.desc {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer{
+  background-color: red;
+  height: 5vh; 
+  width: 100%;
+ }
+
+ @media (max-width: 599px) {
+   #site_logo h2{
+     font-size: 100%;
+     margin-top: initial;
+   }
+
+   .table1 a{
+    font-size: 60%;
+  }
+  
+  nav {
+    height: 15px;
+    padding: initial;
+    padding-bottom: 8px;
+    margin-top: initial;
+  }
+
+  ol {
+    font-size: 100%;
+  }
+
+  h4{
+    font-size: 70%;
+  }
+  .pic {
+    width: 30%;
+    height: 30%;
+    margin-right: 32px;
+  }
 }
