@@ -81,18 +81,36 @@ nav {
   /* font-size: 15px; */
 }
 
-.nav-lists {
-  /* margin: 10px; */
+/* .nav-lists {
+  margin: 10px;
   list-style: none;
   display: flex;
   justify-content: space-around;
-}
+} */
 
-nav a {
+.table1 a{
+  font-size: 100%;
   text-decoration: none;
   color: #fff;
-  font-size: 100%;
 }
+
+nav ul::after{
+  content:"";
+  /* display: block; */
+  clear: both;
+
+}
+
+nav li{
+  float: left;
+  width: 15%;
+  text-align: center;
+}
+
+/* nav a {
+  text-decoration: none;
+  color: #fff;
+} */
 
 nav a:hover{
   opacity: 0.7;
@@ -122,22 +140,80 @@ main{
   height: 100%;
 }
 
-.contents {
-  margin: 5% 5%;
+.container4{
+  
+  margin-top: 7%;
+  border-width: thick;
+  /* border-style: solid; */
+  color: #d52f25;
 }
 
-.content1{
+.container4 h1{
+  color: #d52f25;
+  font-size: 160%;
+}
+/* .middle_image{
+  width: 1000px;
+  height: 200px;
+} */
+
+#concept {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* #concept_logo{
+ margin-bottom: -40px;
+} */
+
+ .container5{
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ 
+ .left-content {
+  width: 30%;
+  /* height: 400px; */
+  font-size: 35px;
+  line-height: 1.8;
+  font-family: serif;
+  /* padding-top: 20px;
+  margin-top: 20px; */
+ }
+
+ .right-content{
+  width: 30%;
+  /* height: 400px; */
+  font-size: 35px;
+  line-height: 1.8;
+  font-family: serif;
+  /* padding-top: 20px;
+  margin-top: 20px; */
+ }
+
+ .mini-content {
+  width: 30%;
+  /* height: 400px; */
+  font-size: 35px;
+  line-height: 1.8;
+  font-family: serif;
+  /* padding-top: 20px;
+  margin-top: 20px; */
+ }
+
+.concept_image{
+  width: 300px;
+  height: 300px;
+}
+
+.container6{
+  height: 100%;
   width: 100%;
-}
-
-.content2 {
- width: 80%;
-}
-
-.image1, .image2, .image4 {
- margin-top: 10%;
-}
-
+  margin-top: 10%;
+ }
 
  .center_content2{
    height: 100%;
@@ -238,12 +314,7 @@ footer{
   }
   
   @media screen and (max-width: 599px) {
-    /* .table1 a{
+    .table1 a{
       font-size: 70%;
-    } */
-    nav a {
-      font-size: 80%;
-      flex-wrap: nowrap;
     }
   }
- }
