@@ -120,6 +120,7 @@ main{
 .top_image{
   width: 100%;
   height: 100%;
+  margin-top: 5%;
 }
 
 .contents {
@@ -131,7 +132,7 @@ main{
 }
 
 .content2 {
- width: 80%;
+ width: 95%;
 }
 
 .image1, .image2, .image4 {
@@ -200,6 +201,11 @@ main{
 
 #access_txt div {
  font-size: 80%;
+}
+
+#access_txt img{
+  width: 50%;
+  height:50%;
 }
 
 footer{
